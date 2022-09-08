@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  vkapp1:
+    image: vikramapp:v1
+    build: .
+    container_name: vkcon1
+    ports:
+      - "1981:80"
